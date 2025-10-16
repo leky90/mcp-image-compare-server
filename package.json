@@ -1,0 +1,66 @@
+{
+  "name": "mcp-image-compare-server",
+  "version": "1.0.0",
+  "description": "MCP server for pixel-level image comparison using pixelmatch",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "mcp-image-compare": "dist/index.js"
+  },
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "README-VN.md",
+    "LICENSE",
+    "CHANGELOG.md",
+    "CONTRIBUTING.md"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc && node dist/index.js",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run build",
+    "postinstall": "node dist/postinstall.js || exit 0"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "image-comparison",
+    "pixelmatch",
+    "screenshot",
+    "visual-testing",
+    "visual-regression",
+    "pixel-diff",
+    "image-diff",
+    "claude",
+    "claude-desktop"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/mcp-image-compare-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/mcp-image-compare-server/issues"
+  },
+  "homepage": "https://github.com/yourusername/mcp-image-compare-server#readme",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "pixelmatch": "^6.0.0",
+    "playwright": "^1.49.0",
+    "pngjs": "^7.0.0",
+    "sharp": "^0.33.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/pixelmatch": "^5.2.6",
+    "@types/pngjs": "^6.0.5",
+    "typescript": "^5.7.2"
+  }
+}

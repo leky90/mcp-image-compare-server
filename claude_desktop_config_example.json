@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "image-compare": {
+      "command": "node",
+      "args": ["D:/mcp/mcp-visualize-diff/dist/index.js"]
+    }
+  }
+}
