@@ -200,7 +200,7 @@ Cấu hình Claude Desktop như trên, lần chạy đầu sẽ tự động t�
 ### Phương pháp 3: Từ Source
 
 ```bash
-git clone https://github.com/yourusername/mcp-image-compare-server.git
+git clone https://github.com/leky90/mcp-image-compare-server.git
 cd mcp-image-compare-server
 npm install
 npx playwright install chromium
@@ -293,8 +293,8 @@ MIT License - xem file [LICENSE](LICENSE) để biết chi tiết.
 
 ## Hỗ trợ
 
-- 🐛 **Báo lỗi:** [GitHub Issues](https://github.com/yourusername/mcp-image-compare-server/issues)
-- 💬 **Câu hỏi:** [GitHub Discussions](https://github.com/yourusername/mcp-image-compare-server/discussions)
+- 🐛 **Báo lỗi:** [GitHub Issues](https://github.com/leky90/mcp-image-compare-server/issues)
+- 💬 **Câu hỏi:** [GitHub Discussions](https://github.com/leky90/mcp-image-compare-server/discussions)
 - 📖 **Tài liệu:** File README này
 
 ---

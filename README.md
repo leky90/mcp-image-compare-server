@@ -284,7 +284,7 @@ First run will download the package automatically.
 ### Method 3: From Source
 
 ```bash
-git clone https://github.com/yourusername/mcp-image-compare-server.git
+git clone https://github.com/leky90/mcp-image-compare-server.git
 cd mcp-image-compare-server
 npm install
 npx playwright install chromium
@@ -389,8 +389,8 @@ Built with:
 
 ## Support
 
-- 🐛 **Bug Reports:** [GitHub Issues](https://github.com/yourusername/mcp-image-compare-server/issues)
-- 💬 **Questions:** [GitHub Discussions](https://github.com/yourusername/mcp-image-compare-server/discussions)
+- 🐛 **Bug Reports:** [GitHub Issues](https://github.com/leky90/mcp-image-compare-server/issues)
+- 💬 **Questions:** [GitHub Discussions](https://github.com/leky90/mcp-image-compare-server/discussions)
 - 📖 **Documentation:** This README
 
 ---

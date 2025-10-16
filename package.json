@@ -42,12 +42,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/mcp-image-compare-server.git"
+    "url": "https://github.com/leky90/mcp-image-compare-server.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/mcp-image-compare-server/issues"
+    "url": "https://github.com/leky90/mcp-image-compare-server/issues"
   },
-  "homepage": "https://github.com/yourusername/mcp-image-compare-server#readme",
+  "homepage": "https://github.com/leky90/mcp-image-compare-server#readme",
   "author": "",
   "license": "MIT",
   "dependencies": {

@@ -14,7 +14,7 @@ Thank you for your interest in contributing! This document provides guidelines f
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/mcp-image-compare-server.git
+git clone https://github.com/leky90/mcp-image-compare-server.git
 cd mcp-image-compare-server
 
 # Install dependencies
