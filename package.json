@@ -1,6 +1,6 @@
 {
   "name": "mcp-image-compare-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server for pixel-level image comparison using pixelmatch",
   "type": "module",
   "main": "dist/index.js",
